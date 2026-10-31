@@ -10,23 +10,25 @@ print(names[0]) # print individual element. There are 3 Elements in the list
 
 # tuple for having a couple of values that are not going to change but you need to store pair of values (two or multiple values together)
     # Graphing in two Dimensions (x and y value)
-
-
     # Grouping one value with second value and then pass around these two values as single unit by referencing them with a single name
+# Like:
+coordinateX = 10.0
+coordinateY = 20.0
 
+coordinate = (10.0, 20.0)
 
+# Data Structures:
+    # 1. list (ordered)- sequence of mutable values
 
-# 1. list (ordered)- sequence of mutable values
+    # 2. tuple - sequence of immutable values
 
-# 2. tuple - sequence of immutable values
+    # 3. set (unordered)-
+        #    collection of unique values
+        #    Every value will appears exactly once
+        #    If the value will appears only once in the program then use set as it will make your programm efficient
 
-# 3. set (unordered)-
-    #    collection of unique values
-    #    Every value will appears exactly once
-    #    If the value will appears only once in the program then use set as it will make your programm efficient
-
-# 4. dic (Dictionary)- collection of key-value pairs
-    #    Key is the word and value is the definition
+    # 4. dic (Dictionary)- collection of key-value pairs
+        #    Key is the word and value is the definition
 
 # ****
 
