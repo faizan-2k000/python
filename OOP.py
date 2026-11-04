@@ -23,5 +23,11 @@ class Point():
             # we store argument x and y to object self properties (.x and .y) = input1 and input2 whatever values inside it as an argument happen to be 
 
 # Creating another/new Point()
-p = Point(2, 4) 
+p = Point(2, 8) 
 # And then the "self" argument is going to provided automatically so do not need to mention self again as it is mentioned above in the __init__(). But need to provide input 1 and 2 (x and y) 
+
+print(p.x)
+print(p.y)
+
+
+# Function called "__init__" that creates a "Point" by storing the two "inputs" inide of the "Object", inside of the property .x and .y, such that later you can create a point which calls the function __init__() implicitly, after that Points "p = Point(2, 8)" have created so the data can be accessed from inside of it. And then print the values   
