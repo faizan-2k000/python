@@ -46,8 +46,9 @@ flight = Flight(3)  # "3" is the "capacity" (an argument) specified inside the _
 # lets use those function to actually add some passengers to this flight 
 people = ["Harry", "Bob", "Hermione", "Ginny"]
 for person in people:
-    success = flight.add_passenger(person)
+    
     if success:
+        # success = flight.add_passenger(person)   We should remove this line as the flight.add_passenger(person) fuction ca directly be mentioned in the if condition
         print(f"Added {person} to flight successfully")
     else:
         print(f"No available seats for that {person}")
