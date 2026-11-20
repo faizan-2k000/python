@@ -12,13 +12,9 @@ people =[
 
 # L4 *****
 # function that takes kyes as input and return kyes and values from inside of the dictionary
-# Here We are giving the name keys so the people.sort() can sort according to the name and below is mentioned another function and that function will sort according to the house keys
+# Here We are giving the name keys so the people.sort() can sort according to the name 
 def f(person):
     return person["name"]
-# ********
-
-def f(person):
-    return person["house"]
 # ********
 
 # L2 *****
@@ -30,5 +26,5 @@ people.sort(key=f)
 # printing the sorted list
 print(people)
 
-# Exeption error will occure becouse sort() function cannot compare as it does't know the smallest and the largest value  
+# Exeption error will occure becouse sort() function cannot compare as it does't know the smallest and the largest value so we are creating the function above to solve this problem 
 # ********
