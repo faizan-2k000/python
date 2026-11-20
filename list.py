@@ -1,7 +1,7 @@
 
 # Note that square brackets are used here 
 
-
+# Creting list
 names = ["faraz", "fahad", "farzana"] 
 print(names) # print entire list
 
