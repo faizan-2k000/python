@@ -20,7 +20,7 @@ print(f"{x} / {y} = {result}")
 # y: 10
 # 5 / 10 = 0.5
 
-# Now try value of x = 5 and value of 0 = 10, the Exception error will appear as shown below:
+# Now try value of x = 5 and value of y = 0, the Exception error will appear as shown below:
 
 # IT@DESKTOP-MR9OLKB MINGW64 /d/pyyy/python (main)
 # $ python exception.py 
